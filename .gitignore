@@ -1,0 +1,55 @@
+# Node dependencies
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Build output
+dist/
+.storybook-out/
+.vite/
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs & Debugging
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.DS_Store
+
+# Editor & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+
+# Storybook
+storybook-static/
+.storybook/cache/
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Jest & Testing
+coverage/
+*.test.ts
+*.test.tsx
+jest/
+.vitest/
+
+# Linting & Formatting
+eslintcache
+.prettiercache
+
+# Misc
+*.log
+*.bak
+*.tmp
