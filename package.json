@@ -1,5 +1,5 @@
 {
-  "name": "matteotti",
+  "name": "@gaulatti/matteotti",
   "version": "1.0.0",
   "main": "index.js",
   "files": [
@@ -9,6 +9,7 @@
     "build": "tsup",
     "storybook": "storybook dev",
     "build-storybook": "storybook build",
+    "prepare": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
